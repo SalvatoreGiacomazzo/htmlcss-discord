@@ -42,7 +42,8 @@ color: white;
 
 .fs-button{padding:18px 30px;
 border-radius: 30px;
-font-weight:900;}
+font-weight:900;
+margin-top: 45px;}
 
 #mac{background-color: white;
 color: black;
@@ -73,29 +74,36 @@ font-size: larger;}
  #ss-box2{background-color: white;
 color: black;
 width: 400px;
+font-size: 22px;
 }
 
 /*Third Section*/
 
-#third-section{height:250px;
-    background-color: rgb(18, 160, 70);
+#third-section{height:600px;
+    background-color: rgb(229, 216, 216);
     display: flex;
     justify-content: center;
     align-items: center;}
+
     
     
-    .ts-box{height: 180px;
+    .ts-box{height: 450px;
         max-width: 1200px;
+        
     }
     
     #ts-box1{
-        background-color: rgb(186, 130, 0);
-        width: 400px;
-        border: dashed;
+        width: 400px; 
+        font-size: 22px;
     }
-     #ts-box2{background-color: rgb(255, 97, 107);
+
+     #ts-box2{
     width: 800px;
-    border: dashed;}
+    
+    }
+
+#third-section p {padding-top: 35px;}
+#third-section h2{ margin-top: 55px;}
     
  /*Fourth Section*/
  #fourth-section{display: flex;
@@ -156,3 +164,4 @@ color: white;}
 margin-bottom: 20px;}
 
 .ss-box p{padding-top: 20px;}
+
