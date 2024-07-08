@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /*header*/
+.header-container{display: flex;
+    justify-content: space-around;
+    height: 60px;
+    background-color: aqua;
+    align-items: center;
+    border-color: black;
+    border: dashed;}
+
+#header-section{ display:flex;
+justify-content: space-around;
+align-items: center;
+height: 35px;
+width: 1200px;
+background-color: rgb(133, 47, 213);
+border: dashed;
+}
+
+/*First section*/
+#first-section{ display: flex;
+justify-content: center;
+align-items: center;
+height: 250px;
+background-color: rgb(234, 184, 58);
+
+}
+ #single-box{height:180px;
+width: 500px;
+background-color: rgb(233, 67, 233);
+border: 2px dashed;
+ }
+
+/*Second section*/
+#second-section{height:250px;
+background-color: rgb(203, 194, 194);
+display: flex;
+justify-content: center;
+align-items: center;}
+
+
+.ss-box{height: 180px;
+    max-width: 1200px;
+}
+
+#ss-box1{
+    background-color: rgb(55, 141, 141);
+    width: 800px;
+    border: dashed;
+}
+ #ss-box2{background-color: rgb(95, 53, 53);
+width: 400px;
+border: dashed;}
+
+/*Third Section*/
+
+#third-section{height:250px;
+    background-color: rgb(18, 160, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+    
+    
+    .ts-box{height: 180px;
+        max-width: 1200px;
+    }
+    
+    #ts-box1{
+        background-color: rgb(186, 130, 0);
+        width: 400px;
+        border: dashed;
+    }
+     #ts-box2{background-color: rgb(255, 97, 107);
+    width: 800px;
+    border: dashed;}
+    
+ /*Fourth Section*/
+ #fourth-section{display: flex;
+    height:250px;
+    background-color: burlywood;
+   justify-content: center;
+   align-items: stretch;
+   padding-right: 150px;
+   padding-left: 150px;
+   
+ }
+ 
+ #fs-box1{max-height: 250px;
+    border: dashed;
+background-color: lightsalmon;
+}
+
+ .fs-box{
+ max-height: 250px ;
+ background-color: palegreen;
+ border: dashed;
+ flex-basis: calc(100% /4);
+ }
+
+ /*Footer*/
+ footer{height: 80px;
+background-color: black;
+font-size: xx-small;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.footer-button-container{
+    height: 45px;
+    width: 1200px;
+    background-color:orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: dashed;
+}
+
