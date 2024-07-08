@@ -31,6 +31,7 @@ background-color: rgb(234, 184, 58);
 background-image: url(../htmlcss-discord/img/jumbo.png);
 background-size: contain;
 text-align: center;
+font-size:larger;
 }
 
 
@@ -52,11 +53,12 @@ color: white;}
 
 
 /*Second section*/
-#second-section{height:250px;
-background-color: rgb(203, 194, 194);
+#second-section{height:600px;
+background-color:white;
 display: flex;
 justify-content: center;
-align-items: center;}
+align-items: center;
+font-size: larger;}
 
 
 .ss-box{height: 180px;
@@ -64,13 +66,14 @@ align-items: center;}
 }
 
 #ss-box1{
-    background-color: rgb(55, 141, 141);
+    background-color: white;
     width: 800px;
-    border: dashed;
+    height:400px ;
 }
- #ss-box2{background-color: rgb(95, 53, 53);
+ #ss-box2{background-color: white;
+color: black;
 width: 400px;
-border: dashed;}
+}
 
 /*Third Section*/
 
@@ -146,8 +149,10 @@ padding: 7px 10px;
 .first-section img {width: 100%;
 height: 500px;}
 
-section > h2{padding-bottom: 30px;
+h2 section{padding-bottom: 30px;
 color: white;}
 
 #single-box > p{margin-top: 20px;
 margin-bottom: 20px;}
+
+.ss-box p{padding-top: 20px;}
