@@ -2,15 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    font-family: Arial, Helvetica, sans-serif;}
+
  /*header*/
 .header-container{display: flex;
     justify-content: space-around;
     height: 60px;
     background-color: #3161E0;
-    align-items: center;
-    }
+    align-items: center;}
+    
 
 #header-section{ display:flex;
 justify-content: space-around;
@@ -19,8 +19,8 @@ height: 35px;
 width: 1200px;
 background-color:#3161E0;
 font-family: Arial, Helvetica, sans-serif;
-color: white;
-}
+color: white;}
+
 
 /*First section*/
 #first-section{ display: flex;
@@ -31,14 +31,14 @@ background-color: rgb(234, 184, 58);
 background-image: url(../htmlcss-discord/img/jumbo.png);
 background-size: contain;
 text-align: center;
-font-size:larger;
-}
+font-size:larger;}
+
 
 
  #single-box{height:380px;
 width: 500px;
-color: white;
- }
+color: white;}
+ 
 
 .fs-button{padding:18px 30px;
 border-radius: 30px;
@@ -46,8 +46,8 @@ font-weight:900;
 margin-top: 45px;}
 
 #mac{background-color: white;
-color: black;
-}
+color: black;}
+
 
 #discbrow{background-color: black;
 color: white;}
@@ -63,19 +63,19 @@ font-size: larger;}
 
 
 .ss-box{height: 180px;
-    max-width: 1200px;
-}
+    max-width: 1200px;}
+
 
 #ss-box1{
     background-color: white;
     width: 800px;
-    height:400px ;
-}
+    height:400px ;}
+
  #ss-box2{background-color: white;
 color: black;
 width: 400px;
-font-size: 22px;
-}
+font-size: 22px;}
+
 
 /*Third Section*/
 
@@ -131,60 +131,67 @@ width: 500px;
 #mac2{background-color: rgb(142, 161, 225);
 color:white;
 }
-#fourth-box p {width:700px;
-padding-top:10px;}
+#fourth-box p {width:400px;}
  
 
 /*Fifth Section*/
  #fifth-section{display: flex;
-    height:250px;
-    background-color: burlywood;
-   justify-content: center;
-   align-items: stretch;
+    height:100px;
+    background-color:#23272A;
+   justify-content: space-between;
    padding-right: 150px;
    padding-left: 150px;
    margin-top:100px;
+   color: white;
  }
+ #fifth-section h4{color:#7289DA; 
+line-height: 10px;
+margin-top: 10px;}
+ #fs-box1{max-height: 350px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;}
+
+ .fs-box{ display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-height: 350px ;
+    flex-basis: calc(100% /4);}
  
- #fs-box1{max-height: 250px;
-    border: dashed;
-background-color: lightsalmon;
-}
-
- .fs-box{
- max-height: 250px ;
- background-color: palegreen;
- border: dashed;
- flex-basis: calc(100% /4);
- }
-
-
+ .fs-box a {text-decoration: none;
+   color: white;
+ line-height: 15px;
+ margin-bottom:15px;}
+ 
+ 
  /*Footer*/
- footer{height: 80px;
-    background-color: black;
+ #page-end{height: 200px;
+    background-color: #23272A;
     font-size: xx-small;
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: flex-end;}
     
     .footer-button-container{
         height: 45px;
         width: 1200px;
-        background-color:orange;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        border: dashed;
-    }
-
+        align-items: center;}
+    
+    
+footer button{background-color: #7289DA;
+border-radius: 25px;
+padding:10px;}
 
 /*Utilities*/ 
-a{
+header a{
 background-color: white;
 border-radius: 20px;
 text-decoration: none;
-padding: 7px 10px;
-}
+padding: 7px 10px;}
+
 
 .first-section img {width: 100%;
 height: 500px;}
