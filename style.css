@@ -27,9 +27,10 @@ color: white;}
 justify-content: space-around;
 align-items: center;
 height: 500px;
-background-color: rgb(234, 184, 58);
+
 background-image: url(../htmlcss-discord/img/jumbo.png);
-background-size: contain;
+background-size: cover;
+background-repeat: no-repeat;
 text-align: center;
 font-size:larger;}
 
